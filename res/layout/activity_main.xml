@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_of_jobs_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacgroundbody"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/availableJobsTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#000000"
+        android:text="Available Jobs"
+        android:textColor="#ffffff" />
+
+    <ListView
+        android:id="@+id/JobsListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/availableJobsTextView" />
+
+</RelativeLayout>
